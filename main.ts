@@ -7,7 +7,7 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 
 const LINE =
-  'I asked an AI to write my wedding vows. It promised to love, honor, and accept the terms and conditions.';
+  'I asked an AI to write my wedding vows. It promised to love, honor, and accept the terms and conditions — then auto-renewed.';
 
 const out = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 mkdirSync(out, { recursive: true });
